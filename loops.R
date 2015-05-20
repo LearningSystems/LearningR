@@ -12,4 +12,5 @@ for (anew in the.new)
     stocks.summary[[anew]] <- summary(stocks[these,])
 }
 
-stocks.summary
+head(stocks.summary,3)
+length(stocks.summary)
